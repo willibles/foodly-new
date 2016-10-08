@@ -21,6 +21,9 @@
 			<nav>
     			<div class="nav-wrapper red accent-3">
 					<a href="#!" class="brand-logo center">Food.ly</a>
+					<ul class="right">
+        		<li><a href="login.php"><i class="material-icons">person_pin</i></a></li>
+      		</ul>
     			</div>
   			</nav>
       </div>
