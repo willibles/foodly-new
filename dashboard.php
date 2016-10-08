@@ -11,6 +11,7 @@
   <style>
     body{
       font-family: 'Roboto';
+      background-color:#ddd;
     }
     a{font-family: 'Lobster'}
     li{line-height:25px;}
@@ -23,13 +24,13 @@
     			</div>
   			</nav>
       </div>
-        <div class="container">
+        <div class="container m4">
           <div class="row">
             <div class="col s12">
               <div class="card">
                 <div class="card-image">
                   <img src="img/food_img_demo.jpg">
-                  <span class="card-title">Coleslaw Chicken Burger</span>
+                  <span class="card-title"><strong>Coleslaw Chicken Burger</strong></span>
                 </div>
                 <div class="card-content">
                   <h3>Ingredients:</h3>
@@ -40,11 +41,32 @@
                   </ol>
                 </div>
                 <div class="card-action">
-                  <a href="#">Recipe</a>
+                  <a href="#" style="text-decoration:underline">Recipe</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/food_img_demo2.jpg">
+                  <span class="card-title"><strong>Pepperoni Pizza</strong></span>
+                </div>
+                <div class="card-content">
+                  <h3>Ingredients:</h3>
+                  <ol>
+                      <li>Cheese</li>
+                      <li>Tomatoes</li>
+                      <li>Dough</li>
+                      <li>Pepperoni</li>
+                  </ol>
+                </div>
+                <div class="card-action">
+                  <a href="#" style="text-decoration:underline;">Recipe</a>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="fixed-action-btn" style="right:24px;bottom:24px;">
+          <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
         </div>
   </body>
 <html>
