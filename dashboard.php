@@ -33,10 +33,10 @@
               <div class="card">
                 <div class="card-image">
                   <img src="img/food_img_demo.jpg">
-                  <span class="card-title"><strong>Coleslaw Chicken Burger</strong></span>
                 </div>
                 <div class="card-content">
-                  <h3>Ingredients:</h3>
+   				  <h3>Chicken Coleslaw Burger</h3>
+                  <h5>Ingredients:</h5>
                   <ol>
                       <li>Chicken</li>
                       <li>Coleslaw</li>
@@ -50,10 +50,10 @@
               <div class="card">
                 <div class="card-image">
                   <img src="img/food_img_demo2.jpg">
-                  <span class="card-title"><strong>Pepperoni Pizza</strong></span>
                 </div>
                 <div class="card-content">
-                  <h3>Ingredients:</h3>
+   				  <h3>Pepperoni Pizza</h3>
+                  <h5>Ingredients:</h5>
                   <ol>
                       <li>Cheese</li>
                       <li>Tomatoes</li>
@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="fixed-action-btn" style="right:24px;bottom:24px;">
-          <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+          <a class="btn-floating btn-large waves-effect waves-light red" href="createpost.php"><i class="material-icons">add</i></a>
         </div>
   </body>
 <html>

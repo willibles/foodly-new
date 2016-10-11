@@ -14,6 +14,7 @@
   <style>
     body{
       font-family: 'Roboto';
+	  background:#ddd;
     }
     a{font-family: 'Lobster'}
   </style>

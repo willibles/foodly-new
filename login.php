@@ -13,6 +13,7 @@ include('header.php');
   <style>
     body{
       font-family: 'Roboto';
+	  background:#ddd;
     }
     a{font-family: 'Lobster'}
   </style>
@@ -20,7 +21,7 @@ include('header.php');
 		<div class="navbar-fixed">
 			<nav>
     			<div class="nav-wrapper red accent-3">
-					<a href="#!" class="brand-logo center">Food.ly</a>
+					<a href="dashboard.php" class="brand-logo center">Food.ly</a>
     			</div>
   			</nav>
 		</div>

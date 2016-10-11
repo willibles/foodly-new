@@ -13,6 +13,7 @@ include('header.php');
    <style>
      body{
        font-family: 'Roboto';
+	   background:#ddd;
      }
      a{font-family: 'Lobster'}
    </style>
@@ -20,7 +21,7 @@ include('header.php');
  		<div class="navbar-fixed">
  			<nav>
      			<div class="nav-wrapper red accent-3">
- 					<a href="#!" class="brand-logo center">Food.ly</a>
+ 					<a href="dashboard.php" class="brand-logo center">Food.ly</a>
      			</div>
    			</nav>
  		</div>
@@ -32,6 +33,15 @@ include('header.php');
                <h3>Post your meal</h3>
                 <form action="createpostprocessor.php" method="post" enctype="multipart/form-data">
 	                 <p>Post name:</p><input type="text" name="content" width="50" height="300" />
+					 <div class="input-field col s12">
+						<p>Ingredients:</p>
+						<textarea id="textarea1" class="materialize-textarea"></textarea>
+						<script>
+						  $('#textarea1').val('New Text');
+						  $('#textarea1').trigger('autoresize');
+						</script>
+				   	 </div>
+				<div class="row">
                    <input type="file" name="image" />
                    <br/>
 	                 <a href="#" class="waves-effect waves-light btn red"><input name="submit" type="submit" value="Post" /></a>
